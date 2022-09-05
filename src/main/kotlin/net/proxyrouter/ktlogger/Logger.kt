@@ -18,14 +18,14 @@ class Logger {
     }
 
     fun info(text: String) {
-        println("[$currentTime] $colorGreen[DEBUG]$colorReset: $text")
+        println("[$currentTime] $colorGreen[INFO]$colorReset: $text")
     }
 
     fun warn(text: String) {
-        println("[$currentTime] $colorYellow[DEBUG]$colorReset: $text")
+        println("[$currentTime] $colorYellow[WARN]$colorReset: $text")
     }
 
     fun error(text: String) {
-        println("[$currentTime] $colorRed[DEBUG]$colorReset: $text")
+        println("[$currentTime] $colorRed[ERROR]$colorReset: $text")
     }
 }
